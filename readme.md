@@ -4,7 +4,9 @@ Dietz Vollrath, University of Houston
 ### Data
 The RIGA files are available from the [World Bank](http://www.fao.org/economic/riga/riga-database/en/). The IPUMS files are available from [IPUMS International](https://international.ipums.org/international/). The March CPS data for the US was downloaded from the [NBER](http://www.nber.org/cps/).
 
-All of the data is publicly available. To facilitate replication, and because the data is not proprietary, all the raw data files used in the paper are available here. They were downloaded from the above sources, but this will assist you in matching my results exactly. 
+As the data is all public, and to facilitate replication, the original files I used are all posted [here](http://hc-efficiency.s3-website.us-east-2.amazonaws.com). 
+
+The code is written assuming the data files are located in the same folder, so you will need to save the individual data files to the same folder as the code.
 
 ### Setup
 The first two are setup - they take in the raw data and produce necessary files. Only need to run once.
